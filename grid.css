@@ -1,0 +1,35 @@
+.header{
+    display: grid;
+    grid-row: 50px ;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#sidebar{
+    background-color:rgb(218, 17, 10);
+    color:black;
+    display: grid;
+    grid-column:10px;
+    font-size: 50PX;
+    align-items:left;
+    justify-content: left;
+    height: 420px;
+    width: 100px;;
+}
+#main{
+    margin-top: -420px;
+    display: grid;
+    grid-row: 0px;
+    justify-content: left;
+    text-align: left;
+    background-color: palevioletred;
+    margin-left: 120px;
+    margin-right: 30px;
+    font-size: 50px;
+    height:420px;
+}
